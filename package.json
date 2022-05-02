@@ -4,12 +4,17 @@
   "main": "index.js",
   "scripts": {
     "cy:run": "cypress run",
-    "cy:open": "cypress open"
+    "cy:open": "cypress open",
+    "eslint": "npx eslint . --ext .js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nurmizmat/projects.git"
   },
+  "keywords": [
+    "ISTQB",
+    "QA"
+  ],
   "author": "nurmizmat",
   "license": "MIT",
   "bugs": {
