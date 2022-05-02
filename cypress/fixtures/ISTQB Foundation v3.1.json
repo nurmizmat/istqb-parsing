@@ -1,0 +1,1306 @@
+[
+  {
+    "termEn": "boundary value analysis",
+    "definitionEn": "A black-box test technique in which test cases are designed based on boundary values.",
+    "termRu": "анализ граничных значений",
+    "definitionRu": "Разработка тестов методом черного ящика, при котором тестовые сценарии проектируются на основании граничных значений."
+  },
+  {
+    "termEn": "checklist-based testing",
+    "definitionEn": "An experience-based test technique whereby the experienced tester uses a high-level list of items to be noted, checked, or remembered, or a set of rules or criteria against which a product has to be verified.",
+    "termRu": "тестирование на основе чек-листов",
+    "definitionRu": "Метод тестирования, основанный на опыте, при котором тестировщик использует высокоуровневые списки. Список состоит из набора правил или критериев, согласно которым верифицируется программный продукт."
+  },
+  {
+    "termEn": "alpha testing",
+    "definitionEn": "A type of acceptance testing performed in the developer's test environment by roles outside the development organization.",
+    "termRu": "альфа-тестирование",
+    "definitionRu": "Тип приемочного тестирования, которое проводится потенциальными пользователями/заказчиками или независимой командой тестирования на стороне разработчиков, но вне разрабатывающей организации."
+  },
+  {
+    "termEn": "beta testing",
+    "definitionEn": "A type of acceptance testing performed at an external site to the developer's test environment by roles outside the development organization.",
+    "termRu": "бета-тестирование",
+    "definitionRu": "Тип приемочного тестирования, которое проводится третьей стороной, не относящейся к организации-разработчику."
+  },
+  {
+    "termEn": "acceptance criteria",
+    "definitionEn": "The criteria that a component or system must satisfy in order to be accepted by a user, customer, or other authorized entity.",
+    "termRu": "критерии приёмки",
+    "definitionRu": "Критерии, которым должны соответствовать компонент или система, для того, чтобы быть принятыми пользователем, заказчиком или другим уполномоченным лицом."
+  },
+  {
+    "termEn": "acceptance testing",
+    "definitionEn": "A test level that focuses on determining whether to accept the system.",
+    "termRu": "приёмочное тестирование",
+    "definitionRu": "Уровень тестирования, целью которого является определение того, принимать ли систему"
+  },
+  {
+    "termEn": "actual result",
+    "definitionEn": "The behavior produced/observed when a component or system is tested.",
+    "termRu": "фактический результат",
+    "definitionRu": "Наблюдаемое или генерируемое поведение компонента или системы во время тестирования."
+  },
+  {
+    "termEn": "anomaly",
+    "definitionEn": "Any condition that deviates from expectation based on requirements specifications, design documents, user documents, standards, etc., or from someone's perception or experience. Anomalies may be found during, but not limited to, reviewing, testing, analysis, compilation, or use of software products or applicable documentation.",
+    "termRu": "аномалия",
+    "definitionRu": "Любое состояние, которое не соответствует ожиданиям, основанным на чьем-либо восприятии или опыте, или же спецификации требований, проектной документации, пользовательской документации, стандартах и т.п. Аномалии могут быть найдены во время (но не только) рецензирования, тестирования, анализа, сборки или использования программных продуктов или соответствующей документации"
+  },
+  {
+    "termEn": "audit",
+    "definitionEn": "An independent examination of a work product or process performed by a third party to assess whether it complies with specifications, standards, contractual agreements, or other criteria.",
+    "termRu": "аудит",
+    "definitionRu": "Независимая оценка рабочего продукта, процесса или набора процессов, выполняемая третьей стороной для оценки соответствия спецификациям, стандартам, договорным соглашениям или другим критериям."
+  },
+  {
+    "termEn": "availability",
+    "definitionEn": "The degree to which a component or system is operational and accessible when required for use.",
+    "termRu": "доступность",
+    "definitionRu": "Уровень готовности и доступности компонента или системы при необходимости их использования."
+  },
+  {
+    "termEn": "boundary value",
+    "definitionEn": "A minimum or maximum value of an ordered equivalence partition.",
+    "termRu": "граничное значение",
+    "definitionRu": "Минимальное или максимальное значение, принадлежащее упорядоченной эквивалентной области."
+  },
+  {
+    "termEn": "commercial off-the-shelf",
+    "definitionEn": "A type of product developed in an identical format for a large number of customers in the general market.",
+    "termRu": "готовый коммерческий продукт",
+    "definitionRu": "Программный продукт, разработанный для большого числа клиентов."
+  },
+  {
+    "termEn": "complexity",
+    "definitionEn": "The degree to which a component or system has a design and/or internal structure that is difficult to understand, maintain and verify.",
+    "termRu": "сложность",
+    "definitionRu": "Уровень, на котором компонент или система спроектированы и/или имеют внутреннюю структуру сложную для понимая, поддержки и проверки."
+  },
+  {
+    "termEn": "compatibility",
+    "definitionEn": "The degree to which a component or system can exchange information with other components or systems, and/or perform its required functions while sharing the same hardware or software environment.",
+    "termRu": "совместимость",
+    "definitionRu": "Степень, с которой компонент или система могут обмениваться информацией с другими компонентами или системами и/или выполнять свои требуемые функции, используя одну и ту же аппаратную или программную среду."
+  },
+  {
+    "termEn": "ad hoc review",
+    "definitionEn": "A review technique performed informally without a structured process.",
+    "termRu": "свободное рецензирование",
+    "definitionRu": "Техника рецензирования, проводимая независимыми рецензентами неформально, без структурированного процесса"
+  },
+  {
+    "termEn": "accessibility",
+    "definitionEn": "The degree to which a component or system can be used by people with the widest range of characteristics and capabilities to achieve a specified goal in a specified context of use."
+  },
+  {
+    "termEn": "black-box test technique",
+    "definitionEn": "A test technique based on an analysis of the specification of a component or system."
+  },
+  {
+    "termEn": "change-related testing",
+    "definitionEn": "A type of testing initiated by modification to a component or system."
+  },
+  {
+    "termEn": "checklist-based review",
+    "definitionEn": "A review technique guided by a list of questions or required attributes."
+  },
+  {
+    "termEn": "coding standard",
+    "definitionEn": "A standard that describes the characteristics of a design or a design description of data or program components."
+  },
+  {
+    "termEn": "decision table testing",
+    "definitionEn": "A black-box test technique in which test cases are designed to exercise the combinations of conditions and the resulting actions shown in a decision table.",
+    "termRu": "тестирование таблицы решений",
+    "definitionRu": "Техника тестирования методом черного ящика, в которой тестовые сценарии проектируются для проверки комбинаций условий и действий, отраженных в таблице решений"
+  },
+  {
+    "termEn": "configuration item",
+    "definitionEn": "An aggregation of work products that is designated for configuration management and treated as a single entity in the configuration management process.",
+    "termRu": "элемент конфигурации",
+    "definitionRu": "Объединение рабочих продуктов, предназначенных для управления конфигурацией и обрабатываемых как единый объект в процессе управления конфигурацией"
+  },
+  {
+    "termEn": "confirmation testing",
+    "definitionEn": "A type of change-related testing performed after fixing a defect to confirm that a failure caused by that defect does not reoccur.",
+    "termRu": "подтверждающее тестирование",
+    "definitionRu": "Тип тестирования, связанного с изменениями, которое выполняется после исправления дефекта для подтверждения того, что отказ, вызванный этим дефектом, не воспроизводится."
+  },
+  {
+    "termEn": "control flow",
+    "definitionEn": "The sequence in which operations are performed by a business process, component or system.",
+    "termRu": "поток управления",
+    "definitionRu": "Последовательность, в которой выполняются операции в процессе выполнения элемента теста"
+  },
+  {
+    "termEn": "coverage item",
+    "definitionEn": "An attribute or combination of attributes derived from one or more test conditions by using a test technique.",
+    "termRu": "элемент покрытия",
+    "definitionRu": "Атрибут или комбинация атрибутов, полученные из одного или более тестовых условий с помощью одной из методик тестирования и позволяющие измерить тщательность исполнения теста"
+  },
+  {
+    "termEn": "data-driven testing",
+    "definitionEn": "A scripting technique that uses data files to contain the test data and expected results needed to execute the test scripts.",
+    "termRu": "тестирование на основе данных",
+    "definitionRu": "Методика написания автоматизированных тестовых сценариев, при которой используются файлы данных, содержащие входные тестовые данные и ожидаемые результаты"
+  },
+  {
+    "termEn": "debugging",
+    "definitionEn": "The process of finding, analyzing and removing the causes of failures in a component or system.",
+    "termRu": "отладка",
+    "definitionRu": "Процесс поиска, анализа, и устранения причин отказов в компоненте или системе"
+  },
+  {
+    "termEn": "compliance",
+    "definitionEn": "Adherence of a work product to standards, conventions or regulations in laws and similar prescriptions.",
+    "termRu": "соответствие",
+    "definitionRu": "Соответствие рабочего продукта стандартам, соглашениям или правилам законодательства, а также другим аналогичным требованиям."
+  },
+  {
+    "termEn": "component integration testing",
+    "definitionEn": "Testing in which the test items are interfaces and interactions between integrated components.",
+    "termRu": "тестирование интеграции компонентов",
+    "definitionRu": "Тестирование, выполняемое для выявления дефектов в интерфейсах и взаимодействии между интегрированными компонентами."
+  },
+  {
+    "termEn": "component testing",
+    "definitionEn": "A test level that focuses on individual hardware or software components.",
+    "termRu": "компонентное тестирование",
+    "definitionRu": "Уровень тестирования отдельных аппаратных или программных компонентов системы."
+  },
+  {
+    "termEn": "configuration management",
+    "definitionEn": "A discipline applying technical and administrative direction and surveillance to identify and document the functional and physical characteristics of a configuration item, control changes to those characteristics, record and report change processing and implementation status, and verify that it complies with specified requirements.",
+    "termRu": "управление конфигурацией",
+    "definitionRu": "Наука, применяющая техническое и административное руководство и контроль для: идентификации и документирования функциональных и физических характеристик элемента конфигурации, контроля изменений этих характеристик, записи и отчетности о состоянии процесса внедрения изменений, а также проверки совместимости с заданными требованиями."
+  },
+  {
+    "termEn": "cost of quality",
+    "definitionEn": "The total costs incurred on quality activities and issues and often split into prevention costs, appraisal costs, internal failure costs and external failure costs.",
+    "termRu": "стоимость качества",
+    "definitionRu": "Общая стоимость затрат на задачи обеспечения и проблемы качества, часто разделяемая на стоимость предотвращения, стоимость оценки, стоимость внутренних отказов и стоимость внешних отказов."
+  },
+  {
+    "termEn": "coverage",
+    "definitionEn": "The degree to which specified coverage items have been determined or have been exercised by a test suite expressed as a percentage.",
+    "termRu": "покрытие",
+    "definitionRu": "Степень того, насколько элементы системы были определены или покрыты набором тестов в процентном отношении"
+  },
+  {
+    "termEn": "decision",
+    "definitionEn": "A type of statement in which a choice between two or more possible outcomes controls which set of actions will result.",
+    "termRu": "решение",
+    "definitionRu": "Подход, при котором выбор между двумя или более альтернативами определяет, к какому в итоге набору действий сводится выполнение программы"
+  },
+  {
+    "termEn": "component",
+    "definitionEn": "A part of a system that can be tested in isolation."
+  },
+  {
+    "termEn": "concurrency",
+    "definitionEn": "The simultaneous execution of multiple independent threads by a component or system."
+  },
+  {
+    "termEn": "continuous integration",
+    "definitionEn": "An automated software development procedure that merges, integrates and tests all changes as soon as they are committed."
+  },
+  {
+    "termEn": "contractual acceptance testing",
+    "definitionEn": "A type of acceptance testing performed to verify whether a system satisfies its contractual requirements."
+  },
+  {
+    "termEn": "coverage criteria",
+    "definitionEn": "The criteria to define the coverage items required to reach a test objective."
+  },
+  {
+    "termEn": "decision coverage",
+    "definitionEn": "The coverage of decision outcomes."
+  },
+  {
+    "termEn": "equivalence partitioning",
+    "definitionEn": "A black-box test technique in which test cases are designed to exercise equivalence partitions by using one representative member of each partition.",
+    "termRu": "эквивалентное разбиение",
+    "definitionRu": "Техника тестирования методом черного ящика, где тестовые сценарии создаются для тестирования эквивалентных разбиений путем использования одного представителя каждого разбиения"
+  },
+  {
+    "termEn": "error guessing",
+    "definitionEn": "A test technique in which tests are derived on the basis of the tester's knowledge of past failures, or general knowledge of failure modes.",
+    "termRu": "предположение об ошибках",
+    "definitionRu": "Техника тестирования, в которой тесты получены на основе знаний тестировщика о ранее обнаруженных сбоях или общих знаниях о типах отказов"
+  },
+  {
+    "termEn": "exit criteria",
+    "definitionEn": "The set of conditions for officially completing a defined task.",
+    "termRu": "критерии выхода",
+    "definitionRu": "Набор условий, необходимых для формального завершения конкретной задачи"
+  },
+  {
+    "termEn": "decision testing",
+    "definitionEn": "A white-box test technique in which test cases are designed to execute decision outcomes.",
+    "termRu": "тестирование решений",
+    "definitionRu": "Техника тестирования методом белого ящика, в которой тестовые сценарии предназначены для проверки результатов решений"
+  },
+  {
+    "termEn": "defect density",
+    "definitionEn": "The number of defects per unit size of a work product.",
+    "termRu": "плотность дефектов",
+    "definitionRu": "Количество дефектов на единицу размера рабочего продукта"
+  },
+  {
+    "termEn": "dynamic analysis",
+    "definitionEn": "The process of evaluating a component or system based on its behavior during execution.",
+    "termRu": "динамический анализ",
+    "definitionRu": "Процесс оценки поведения системы или компонента во время выполнения"
+  },
+  {
+    "termEn": "exhaustive testing",
+    "definitionEn": "A test approach in which the test suite comprises all combinations of input values and preconditions.",
+    "termRu": "исчерпывающее тестирование",
+    "definitionRu": "Методика тестирования, в которой набор тестов включает в себя все комбинации входных данных и предусловий."
+  },
+  {
+    "termEn": "defect",
+    "definitionEn": "An imperfection or deficiency in a work product where it does not meet its requirements or specifications.",
+    "termRu": "дефект",
+    "definitionRu": "Несовершенство или недостаток рабочего продукта, проявляющееся в несоответствии￼ требованиям или спецификациям"
+  },
+  {
+    "termEn": "defect management",
+    "definitionEn": "The process of recognizing, recording, classifying, investigating, resolving and disposing of defects.",
+    "termRu": "управление дефектами",
+    "definitionRu": "Процесс распознавания и фиксирования дефектов, их классификации, исследования, принятия мер для их разрешения и исправления."
+  },
+  {
+    "termEn": "defect report",
+    "definitionEn": "Documentation of the occurrence, nature, and status of a defect.",
+    "termRu": "отчет о дефекте",
+    "definitionRu": "Документирование возникновения, характера и состояния дефекта"
+  },
+  {
+    "termEn": "driver",
+    "definitionEn": "A temporary component or tool that replaces another component and controls or calls a test item in isolation.",
+    "termRu": "драйвер",
+    "definitionRu": "Временный компонент или инструмент тестирования, который заменяет другой компонент и обеспечивает изолированное управление и/или вызов тестируемого элемента"
+  },
+  {
+    "termEn": "dynamic testing",
+    "definitionEn": "Testing that involves the execution of the test item.",
+    "termRu": "динамическое тестирование",
+    "definitionRu": "Тестирование, проводимое во время выполнения тестируемого элемента"
+  },
+  {
+    "termEn": "effectiveness",
+    "definitionEn": "The extent to which correct and complete goals are achieved.",
+    "termRu": "результативность",
+    "definitionRu": "Степень достижения правильных завершенных целей."
+  },
+  {
+    "termEn": "efficiency",
+    "definitionEn": "The degree to which resources are expended in relation to results achieved.",
+    "termRu": "эффективность",
+    "definitionRu": "Отношение затраченных ресурсов к достигнутым целям пользователей."
+  },
+  {
+    "termEn": "entry criteria",
+    "definitionEn": "The set of conditions for officially starting a defined task.",
+    "termRu": "критерии входа",
+    "definitionRu": "Набор условий, необходимых для успешного старта конкретной задачи"
+  },
+  {
+    "termEn": "equivalence partition",
+    "definitionEn": "A subset of the value domain of a variable within a component or system in which all values are expected to be treated the same based on the specification.",
+    "termRu": "эквивалентная область",
+    "definitionRu": "Часть области значений элемента данных, связанного с тестовым объектом, для которого все значения должны обрабатываться одинаково на основе спецификации"
+  },
+  {
+    "termEn": "error",
+    "definitionEn": "A human action that produces an incorrect result.",
+    "termRu": "Ошибка",
+    "definitionRu": "Действие человека, которое приводит к неправильному результату"
+  },
+  {
+    "termEn": "expected result",
+    "definitionEn": "The observable predicted behavior of a test item under specified conditions based on its test basis.",
+    "termRu": "ожидаемый результат",
+    "definitionRu": "Прогнозируемое наблюдаемое поведение компонента или системы при конкретных условиях, основанных на спецификации или другом источнике"
+  },
+  {
+    "termEn": "epic",
+    "definitionEn": "A large user story that cannot be delivered as defined within a single iteration or is large enough that it can be split into smaller user stories."
+  },
+  {
+    "termEn": "experience-based test technique",
+    "definitionEn": "A test technique only based on the tester's experience, knowledge and intuition."
+  },
+  {
+    "termEn": "exploratory testing",
+    "definitionEn": "An approach to testing whereby the testers dynamically design and execute tests based on their knowledge, exploration of the test item and the results of previous tests.",
+    "termRu": "исследовательское тестирование",
+    "definitionRu": "Подход к тестированию, согласно которому тестировщики динамически проектируют и выполняют тесты, основываясь на своих знаниях, исследовании тестируемого элемента и результатов предыдущих тестов"
+  },
+  {
+    "termEn": "high-level test case",
+    "definitionEn": "A test case with abstract preconditions, input data, expected results, postconditions, and actions (where applicable).",
+    "termRu": "тестовый сценарий высокого уровня",
+    "definitionRu": "Тестовый сценарий с абстрактными предусловиями, входными данными, ожидаемыми результатами, постусловиями и действиями (там, где применимо)"
+  },
+  {
+    "termEn": "failure rate",
+    "definitionEn": "The ratio of the number of failures of a given category to a given unit of measure.",
+    "termRu": "уровень отказа",
+    "definitionRu": "Отношение количества отказов данной категории к заданной единице измерения."
+  },
+  {
+    "termEn": "impact analysis",
+    "definitionEn": "The identification of all work products affected by a change, including an estimate of the resources needed to accomplish the change.",
+    "termRu": "анализ влияния",
+    "definitionRu": "Определение всех объектов, подверженных влиянию изменения, а также оценка ресурсов, необходимых для реализации изменения"
+  },
+  {
+    "termEn": "independence of testing",
+    "definitionEn": "Separation of responsibilities, which encourages the accomplishment of objective testing.",
+    "termRu": "независимость тестирования",
+    "definitionRu": "Разделение ответственностей, которое позволяет выполнять объективное тестирование."
+  },
+  {
+    "termEn": "informal review",
+    "definitionEn": "A type of review that does not follow a defined process and has no formally documented output.",
+    "termRu": "неформальное рецензирование",
+    "definitionRu": "Рецензирование, которое не основано на формальной (документированной) процедуре"
+  },
+  {
+    "termEn": "experience-based testing",
+    "definitionEn": "Testing based on the tester's experience, knowledge and intuition.",
+    "termRu": "тестирование на основе опыта",
+    "definitionRu": "Тестирование на основе опыта, знания и интуиции тестировщика"
+  },
+  {
+    "termEn": "failure",
+    "definitionEn": "An event in which a component or system does not perform a required function within specified limits.",
+    "termRu": "отказ",
+    "definitionRu": "Событие, при котором компонент или система не выполняют требуемую функцию в соответствии со спецификацией"
+  },
+  {
+    "termEn": "false-negative result",
+    "definitionEn": "A test result which fails to identify the presence of a defect that is actually present in the test object.",
+    "termRu": "ложный негативный результат",
+    "definitionRu": "Результат теста, который не смог определить присутствие дефекта, реально существующего в объекте тестирования."
+  },
+  {
+    "termEn": "false-positive result",
+    "definitionEn": "A test result in which a defect is reported although no such defect actually exists in the test object.",
+    "termRu": "ложный позитивный результат",
+    "definitionRu": "Результат теста, по которому было сообщено об ошибке, хотя на самом деле дефекта в объекте тестирования нет"
+  },
+  {
+    "termEn": "formal review",
+    "definitionEn": "A type of review that follows a defined process with a formally documented output.",
+    "termRu": "формальное рецензирование",
+    "definitionRu": "Тип рецензирования, который следует конкретному заданному процессу с официально задокументированными результатами."
+  },
+  {
+    "termEn": "functional testing",
+    "definitionEn": "Testing performed to evaluate if a component or system satisfies functional requirements.",
+    "termRu": "функциональное тестирование",
+    "definitionRu": "Тестирование, проводимое для оценки соответствия компонента или системы функциональным требованиям."
+  },
+  {
+    "termEn": "incremental development model",
+    "definitionEn": "A type of software development lifecycle model in which the component or system is developed through a series of increments.",
+    "termRu": "инкрементная модель разработки",
+    "definitionRu": "Тип модели жизненного цикла разработки, в которой компонент или система разрабатываются посредством серии приращений функциональности."
+  },
+  {
+    "termEn": "inspection",
+    "definitionEn": "A type of formal review to identify issues in a work product, which provides measurement to improve the review process and the software development process.",
+    "termRu": "инспекция",
+    "definitionRu": "Типа формального рецензирования для поиска дефектов, обеспечивающий измерение для возможного улучшения процессов рецензирования и разработки."
+  },
+  {
+    "termEn": "integration testing",
+    "definitionEn": "A test level that focuses on interactions between components or systems.",
+    "termRu": "интеграционное тестирование",
+    "definitionRu": "Уровень тестирования, который фокусируется на взаимодействии между компонентами или системами"
+  },
+  {
+    "termEn": "interoperability",
+    "definitionEn": "The degree to which two or more components or systems can exchange information and use the information that has been exchanged.",
+    "termRu": "возможность взаимодействия",
+    "definitionRu": "Характеристика, показывающая степень, с которой два и более компонента или системы могут обмениваться информацией и использовать информацию, которой обменивались"
+  },
+  {
+    "termEn": "failed",
+    "definitionEn": "The status of a test result in which the actual result does not match the expected result."
+  },
+  {
+    "termEn": "finding",
+    "definitionEn": "A result of an evaluation that identifies some important issue, problem, or opportunity."
+  },
+  {
+    "termEn": "functional suitability",
+    "definitionEn": "The degree to which a component or system provides functions that meet stated and implied needs when used under specified conditions."
+  },
+  {
+    "termEn": "integrity",
+    "definitionEn": "The degree to which a component or system allows only authorized access and modification to a component, a system or data."
+  },
+  {
+    "termEn": "keyword-driven testing",
+    "definitionEn": "A scripting technique in which test scripts contain high-level keywords and supporting files that contain low-level scripts that implement those keywords.",
+    "termRu": "тестирование на основе ключевых слов",
+    "definitionRu": "Методика написания автоматизированных тестовых сценариев, использующая ключевые слова высокого уровня, а также вспомогательные файлы, содержащие тестовые сценарии низкого уровня, которые реализуют эти ключевые слова"
+  },
+  {
+    "termEn": "low-level test case",
+    "definitionEn": "A test case with concrete values for preconditions, input data, expected results, postconditions, and a detailed description of actions (where applicable).",
+    "termRu": "тестовый сценарий низкого уровня",
+    "definitionRu": "Тестовый сценарий с конкретными значениями предварительных условий, входных данных, ожидаемых результатов и постусловий и подробным описанием действий (там, где применимо)."
+  },
+  {
+    "termEn": "load testing",
+    "definitionEn": "A type of performance testing conducted to evaluate the behavior of a component or system under varying loads, usually between anticipated conditions of low, typical, and peak usage.",
+    "termRu": "нагрузочное тестирование",
+    "definitionRu": "Вид тестирования производительности, проводимый с целью оценить поведение компонента или системы при различных нагрузках, обычно между ожидаемыми условиями низкой, типичной и пиковой нагрузки."
+  },
+  {
+    "termEn": "master test plan",
+    "definitionEn": "A test plan that is used to coordinate multiple test levels or test types.",
+    "termRu": "главный план тестирования",
+    "definitionRu": "План тестирования, используемый для координации нескольких уровней или типов тестирования."
+  },
+  {
+    "termEn": "memory leak",
+    "definitionEn": "A memory access failure due to a defect in a program's dynamic store allocation logic that causes it to fail to release memory after it has finished using it.",
+    "termRu": "утечка памяти",
+    "definitionRu": "Отказ доступа к памяти, вызванный дефектом в программной логике выделения динамической памяти, являющийся причиной невозможности освободить выделенную память после того, как программа закончила ее использовать, и в конечном счете приводящий к отказу программы и/или иных параллельных процессов из-за недостатка памяти."
+  },
+  {
+    "termEn": "moderator",
+    "definitionEn": "(1) The person responsible for running review meetings. (2) The person who performs a usability test session.",
+    "termRu": "координатор",
+    "definitionRu": "1. Лицо, ответственное за проведение собраний, посвященных рецензированию. 2. Лицо, которое координирует сессию тестирования практичности."
+  },
+  {
+    "termEn": "operational acceptance testing",
+    "definitionEn": "A type of acceptance testing performed to determine if operations and/or systems administration staff can accept a system.",
+    "termRu": "эксплуатационное приемочное тестирование",
+    "definitionRu": "Тип приемочного тестирования, которое выполняется, чтобы определить, могут ли пользователи и/или сотрудники с администраторским доступом принять систему."
+  },
+  {
+    "termEn": "peer review",
+    "definitionEn": "A review performed by others with the same abilities to create the work product.",
+    "termRu": "равноправный анализ",
+    "definitionRu": "Тип рецензирования рабочих продуктов, выполняемых другими квалифицированными сотрудниками (не авторами), специализирующимися в этой же области деятельности."
+  },
+  {
+    "termEn": "maintainability",
+    "definitionEn": "The degree to which a component or system can be modified by the intended maintainers.",
+    "termRu": "сопровождаемость",
+    "definitionRu": "Степень того, насколько компонент или система могут быть изменены специалистами по сопровождению."
+  },
+  {
+    "termEn": "maintenance",
+    "definitionEn": "The process of modifying a component or system after delivery to correct defects, improve quality characteristics, or adapt to a changed environment.",
+    "termRu": "сопровождение",
+    "definitionRu": "Процесс модификации компонента или системы после поставки для исправления дефектов, повышения характеристик качества или адаптации к изменившемуся окружению"
+  },
+  {
+    "termEn": "maintenance testing",
+    "definitionEn": "Testing the changes to an operational system or the impact of a changed environment to an operational system.",
+    "termRu": "тестирование в период сопровождения",
+    "definitionRu": "Тестирование изменений в действующей системе или влияния изменений в окружении на действующую систему."
+  },
+  {
+    "termEn": "maturity",
+    "definitionEn": "(1) The capability of an organization with respect to the effectiveness and efficiency of its processes and work practices. (2) The degree to which a component or system meets needs for reliability under normal operation.",
+    "termRu": "зрелость",
+    "definitionRu": "1. Уровень эффективности корпоративных процессов и методик конкретной организации. 2. Степень соответствия компонента или системы требованиям надежности при нормальной эксплуатации."
+  },
+  {
+    "termEn": "measurement",
+    "definitionEn": "The process of assigning a number or category to an entity to describe an attribute of that entity.",
+    "termRu": "измерение",
+    "definitionRu": "Процесс присвоения числа или категории сущности для описания атрибута этой сущности."
+  },
+  {
+    "termEn": "metric",
+    "definitionEn": "A measurement scale and the method used for measurement.",
+    "termRu": "метрика",
+    "definitionRu": "Шкала измерений и метод, используемый для измерений."
+  },
+  {
+    "termEn": "non-functional testing",
+    "definitionEn": "Testing performed to evaluate that a component or system complies with non-functional requirements.",
+    "termRu": "нефункциональное тестирование",
+    "definitionRu": "Тестирование, выполняемое для оценки соответствия компонента или системы нефункциональным требованиям"
+  },
+  {
+    "termEn": "passed",
+    "definitionEn": "The status of a test result in which the actual result matches the expected result.",
+    "termRu": "пройден",
+    "definitionRu": "Статус результата теста, при котором фактические результаты соответствуют ожидаемым результатам"
+  },
+  {
+    "termEn": "path",
+    "definitionEn": "A sequence of consecutive edges in a directed graph.",
+    "termRu": "путь",
+    "definitionRu": "Последовательность смежных ребер ориентированного графа"
+  },
+  {
+    "termEn": "iterative development model",
+    "definitionEn": "A type of software development lifecycle model in which the component or system is developed through a series of repeated cycles."
+  },
+  {
+    "termEn": "model-based testing",
+    "definitionEn": "Testing based on or involving models."
+  },
+  {
+    "termEn": "modularity",
+    "definitionEn": "The degree to which a system is composed of discrete components such that a change to one component has minimal impact on other components."
+  },
+  {
+    "termEn": "product risk",
+    "definitionEn": "A risk impacting the quality of a product.",
+    "termRu": "риск продукта",
+    "definitionRu": "Риск, влияющий на качество продукта."
+  },
+  {
+    "termEn": "performance indicator",
+    "definitionEn": "A metric that supports the judgment of process performance.",
+    "termRu": "индикатор производительности",
+    "definitionRu": "Метрика, которая содержит выводы о производительности процесса."
+  },
+  {
+    "termEn": "planning poker",
+    "definitionEn": "A consensus-based estimation technique, mostly used to estimate effort or relative size of user stories in Agile software development. It is a variation of the Wideband Delphi method using a deck of cards with values representing the units in which the team estimates.",
+    "termRu": "покер планирования",
+    "definitionRu": "Метод оценки трудозатрат, основанный на всеобщем одобрении. Обычно используется для оценки затрат или относительного объема пользовательских историй в гибких методологиях разработки программного обеспечения. Является вариантом широкополосного предсказателя с использованием колоды карт со значениями, представляющими число квантов, которыми оценивается работа."
+  },
+  {
+    "termEn": "postcondition",
+    "definitionEn": "The expected state of a test item and its environment at the end of test case execution.",
+    "termRu": "постусловие",
+    "definitionRu": "Ожидаемое состояние элемента тестирования и его окружения после окончания выполнения тестового сценария."
+  },
+  {
+    "termEn": "probe effect",
+    "definitionEn": "An unintended change in behavior of a component or system caused by measuring it.",
+    "termRu": "эффект зондирования",
+    "definitionRu": "Непреднамеренное изменение поведения компонента или системы, вызванное его измерением."
+  },
+  {
+    "termEn": "process model",
+    "definitionEn": "A framework in which processes of the same nature are classified into an overall model.",
+    "termRu": "модель процесса",
+    "definitionRu": "Среда, в которой процессы одного типа группируются в общую модель."
+  },
+  {
+    "termEn": "quality assurance",
+    "definitionEn": "Activities focused on providing confidence that quality requirements will be fulfilled.",
+    "termRu": "обеспечение качества",
+    "definitionRu": "Активности, направленные на обеспечение уверенности в том, что требования к качеству будут выполнены"
+  },
+  {
+    "termEn": "quality control",
+    "definitionEn": "A set of activities designed to evaluate the quality of a component or system.",
+    "termRu": "контроль качества",
+    "definitionRu": "Набор действий, предназначенных для оценивания качества компонента или системы."
+  },
+  {
+    "termEn": "quality management",
+    "definitionEn": "The process of establishing and directing a quality policy, quality objectives, quality planning, quality control, quality assurance, and quality improvement for an organization.",
+    "termRu": "управление качеством",
+    "definitionRu": "Скоординированные действия по руководству и контролю организации в отношении качества, которые включают в себя установление политики качества и целей качества, планирование качества, контроль качества, обеспечение качества и повышение качества."
+  },
+  {
+    "termEn": "quality risk",
+    "definitionEn": "A product risk related to a quality characteristic.",
+    "termRu": "риск качества",
+    "definitionRu": "Риск продукта, связанный с характеристиками качества."
+  },
+  {
+    "termEn": "portability",
+    "definitionEn": "The degree to which a component or system can be transferred from one hardware, software or other operational or usage environment to another.",
+    "termRu": "переносимость",
+    "definitionRu": "Степень того, насколько компонент или система могут быть перенесены из одной аппаратной, программной или прочей операционной среды или среды использования в другую."
+  },
+  {
+    "termEn": "precondition",
+    "definitionEn": "The required state of a test item and its environment prior to test case execution.",
+    "termRu": "предусловие",
+    "definitionRu": "Требуемое состояние элемента тестирования и его окружения до начала выполнения тестового сценария."
+  },
+  {
+    "termEn": "priority",
+    "definitionEn": "The level of (business) importance assigned to an item, e.g., defect.",
+    "termRu": "приоритет",
+    "definitionRu": "Степень важности, присваеваемая объекту. Например, дефекту."
+  },
+  {
+    "termEn": "project risk",
+    "definitionEn": "A risk that impacts project success.",
+    "termRu": "риск проекта",
+    "definitionRu": "Риск, который влияет на успех проекта."
+  },
+  {
+    "termEn": "quality",
+    "definitionEn": "The degree to which a component or system satisfies the stated and implied needs of its various stakeholders.",
+    "termRu": "качество",
+    "definitionRu": "Степень того, насколько компонент или система соответствует сформулированным и подразумеваемым потребностям различных заинтересованных лиц."
+  },
+  {
+    "termEn": "quality characteristic",
+    "definitionEn": "A category of quality attributes that bears on work product quality.",
+    "termRu": "характеристики качества программного обеспечения",
+    "definitionRu": "Категория атрибутов, которая имеет отношение к качеству рабочего продукта."
+  },
+  {
+    "termEn": "performance testing tool",
+    "definitionEn": "A test tool that generates load for a designated test item and that measures and records its performance during test execution.",
+    "termRu": "инструмент тестирования производительности",
+    "definitionRu": "Инструмент тестирования, который генерирует нагрузку для заданного тестового элемента, измеряет и фиксирует его производительность во время выполнения теста."
+  },
+  {
+    "termEn": "performance efficiency",
+    "definitionEn": "The degree to which a component or system uses time, resources and capacity when accomplishing its designated functions."
+  },
+  {
+    "termEn": "performance testing",
+    "definitionEn": "Testing to determine the performance efficiency of a component or system."
+  },
+  {
+    "termEn": "perspective-based reading",
+    "definitionEn": "A review technique in which a work product is evaluated from the perspective of different stakeholders with the purpose to derive other work products."
+  },
+  {
+    "termEn": "risk analysis",
+    "definitionEn": "The overall process of risk identification and risk assessment.",
+    "termRu": "анализ рисков",
+    "definitionRu": "Общий процесс определения и оценки рисков"
+  },
+  {
+    "termEn": "risk level",
+    "definitionEn": "The qualitative or quantitative measure of a risk defined by impact and likelihood.",
+    "termRu": "уровень риска",
+    "definitionRu": "Качественный или количественный показатель риска, определяемый влиянием и вероятностью"
+  },
+  {
+    "termEn": "risk management",
+    "definitionEn": "The process for handling risks.",
+    "termRu": "управление рисками",
+    "definitionRu": "Процесс управления рисками"
+  },
+  {
+    "termEn": "risk mitigation",
+    "definitionEn": "The process through which decisions are reached and protective measures are implemented for reducing or maintaining risks to specified levels.",
+    "termRu": "смягчение рисков",
+    "definitionRu": "Процесс, в результате которого выносятся решения и принимаются защитные меры для уменьшения рисков до определенного уровня или поддержанию рисков в оговоренных рамках."
+  },
+  {
+    "termEn": "root cause analysis",
+    "definitionEn": "An analysis technique aimed at identifying the root causes of defects. By directing corrective measures at root causes, it is hoped that the likelihood of defect recurrence will be minimized.",
+    "termRu": "анализ первопричины",
+    "definitionRu": "Анализ, направленный на идентификацию первопричин дефектов. При применении мер к устранению первопричины, можно надеяться на минимизацию частоты появления дефектов определенного типа."
+  },
+  {
+    "termEn": "reliability growth model",
+    "definitionEn": "A model that shows the growth in reliability over time of a component or system as a result of the defect removal.",
+    "termRu": "модель роста надежности",
+    "definitionRu": "Модель, которая показывает рост надежности компонента или системы в результате устранения дефекта"
+  },
+  {
+    "termEn": "reviewer",
+    "definitionEn": "A participant in a review who identifies issues in the work product.",
+    "termRu": "рецензент",
+    "definitionRu": "Участник рецензирования, который выявляет проблемы в рабочем продукте"
+  },
+  {
+    "termEn": "scribe",
+    "definitionEn": "A person who records information at a review meeting.",
+    "termRu": "секретарь",
+    "definitionRu": "Лицо, записывающий информацию во время собраний по анализу и рецензированию"
+  },
+  {
+    "termEn": "regression testing",
+    "definitionEn": "A type of change-related testing to detect whether defects have been introduced or uncovered in unchanged areas of the software.",
+    "termRu": "регрессионное тестирование",
+    "definitionRu": "Тип тестирования, связанного с изменениями, чтобы найти привнесенные или ранее не обнаруженные дефекты в не менявшихся областях программного обеспечения."
+  },
+  {
+    "termEn": "reliability",
+    "definitionEn": "The degree to which a component or system performs specified functions under specified conditions for a specified period of time.",
+    "termRu": "надежность",
+    "definitionRu": "Степень выполнения компонентом или системой конкретных функций в конкретных условиях в течение конкретного периода времени"
+  },
+  {
+    "termEn": "requirement",
+    "definitionEn": "A provision that contains criteria to be fulfilled.",
+    "termRu": "требование",
+    "definitionRu": "Условие, которое включает обязательные для выполнения критерии"
+  },
+  {
+    "termEn": "review",
+    "definitionEn": "A type of static testing in which a work product or process is evaluated by one or more individuals to detect defects or to provide improvements.",
+    "termRu": "рецензирование",
+    "definitionRu": "Тип статического тестирования, при котором разрабатываемый продукт или процесс работы оценивается одним или несколькими лицами для обнаружения дефектов или для улучшения"
+  },
+  {
+    "termEn": "risk",
+    "definitionEn": "A factor that could result in future negative consequences.",
+    "termRu": "риск",
+    "definitionRu": "Фактор, который может привести к негативным последствиям в будущем, обычно выражается через вероятность и влияние."
+  },
+  {
+    "termEn": "root cause",
+    "definitionEn": "A source of a defect such that if it is removed, the occurrence of the defect type is decreased or removed.",
+    "termRu": "первопричина",
+    "definitionRu": "Источник дефекта, при удалении которого частота подобных дефектов сокращается, или же подобные дефекты исчезают полностью"
+  },
+  {
+    "termEn": "regulatory acceptance testing",
+    "definitionEn": "A type of acceptance testing performed to verify whether a system conforms to relevant laws, policies and regulations."
+  },
+  {
+    "termEn": "retrospective",
+    "definitionEn": "A regular event in which team members discuss results, review their practices, and identify ways to improve."
+  },
+  {
+    "termEn": "reusability",
+    "definitionEn": "The degree to which a work product can be used in more than one system, or in building other work products."
+  },
+  {
+    "termEn": "risk-based testing",
+    "definitionEn": "Testing in which the management, selection, prioritization, and use of testing activities and resources are based on corresponding risk types and risk levels."
+  },
+  {
+    "termEn": "role-based review",
+    "definitionEn": "A review technique in which a work product is evaluated from the perspective of different stakeholders."
+  },
+  {
+    "termEn": "scenario-based review",
+    "definitionEn": "A review technique in which a work product is evaluated to determine its ability to address specific scenarios."
+  },
+  {
+    "termEn": "state transition testing",
+    "definitionEn": "A black-box test technique in which test cases are designed to exercise elements of a state transition model.",
+    "termRu": "тестирование таблицы переходов",
+    "definitionRu": "Разработка тестов методом черного ящика, при котором сценарии тестирования строятся на основе модели переходов состояний."
+  },
+  {
+    "termEn": "stub",
+    "definitionEn": "A skeletal or special-purpose implementation of a software component, used to develop or test a component that calls or is otherwise dependent on it. It replaces a called component.",
+    "termRu": "заглушка",
+    "definitionRu": "Минимальная или специализированная реализация программного компонента. Использующаяся для подмены компонента, от которого зависит разработка или тестирование другого компонента системы."
+  },
+  {
+    "termEn": "security testing",
+    "definitionEn": "Testing to determine the security of the software product.",
+    "termRu": "тестирование защищенности",
+    "definitionRu": "Тестирование с целью оценить защищенность программного продукта."
+  },
+  {
+    "termEn": "session-based testing",
+    "definitionEn": "An approach in which test activities are planned as test sessions.",
+    "termRu": "тестирование на основе сеансов",
+    "definitionRu": "Подход, при котором тестовые активности планируются как тестовые сессии."
+  },
+  {
+    "termEn": "statement coverage",
+    "definitionEn": "The coverage of executable statements.",
+    "termRu": "покрытие операторов",
+    "definitionRu": "Покрытие исполняемых операторов"
+  },
+  {
+    "termEn": "statement testing",
+    "definitionEn": "A white-box test technique in which test cases are designed to execute statements.",
+    "termRu": "тестирование операторов",
+    "definitionRu": "Техника тестирования белого ящика, при которой наборы тестов составляются с целью исполнения операторов."
+  },
+  {
+    "termEn": "structural coverage",
+    "definitionEn": "Coverage measures based on the internal structure of a component or system.",
+    "termRu": "структурное покрытие",
+    "definitionRu": "Метрики покрытия, основанные на внутренней структуре компонента или системы."
+  },
+  {
+    "termEn": "system integration testing",
+    "definitionEn": "A test level that focuses on interactions between systems.",
+    "termRu": "системное интеграционное тестирование",
+    "definitionRu": "Уровень тестирования, который фокусируется на взаимодействии между системами"
+  },
+  {
+    "termEn": "severity",
+    "definitionEn": "The degree of impact that a defect has on the development or operation of a component or system.",
+    "termRu": "критичность",
+    "definitionRu": "Важность воздействия конкретного дефекта на разработку или функционирование компонента или системы."
+  },
+  {
+    "termEn": "software lifecycle",
+    "definitionEn": "The period of time that begins when a software product is conceived and ends when the software is no longer available for use. The software lifecycle typically includes a concept phase, requirements phase, design phase, implementation phase, test phase, installation and checkout phase, operation and maintenance phase, and sometimes, retirement phase. Note these phases may overlap or be performed iteratively.",
+    "termRu": "жизненный цикл программного обеспечения",
+    "definitionRu": "Период времени, начинающийся с момента появления концепции программного обеспечения и заканчивающийся тогда, когда дальнейшее использование программного обеспечения невозможно. Жизненный цикл программного обеспечения обычно включает в себя следующие этапы: концепт, описание требований, дизайн, реализация, тестирование, инсталляция и наладка, эксплуатация и поддержка и, иногда, этап вывода из эксплуатации. Данные фазы могут накладываться друг на друга или проводиться итерационно."
+  },
+  {
+    "termEn": "standard",
+    "definitionEn": "Formal, possibly mandatory, set of requirements developed and used to prescribe consistent approaches to the way of working or to provide guidelines (e.g., ISO/IEC standards, IEEE standards, and organizational standards).",
+    "termRu": "стандарт",
+    "definitionRu": "Формальный, возможно, обязательный набор требований, разрабатываемых и использующихся для описания последовательных подходов к работе или для предоставления инструкций (например, ISO / IEC стандарты, IEEE стандарты и организационные стандарты)."
+  },
+  {
+    "termEn": "statement",
+    "definitionEn": "An entity in a programming language, which is typically the smallest indivisible unit of execution.",
+    "termRu": "оператор",
+    "definitionRu": "Сущность языка программирования, обычно являющаяся минимальным неделимым исполняемым блоком."
+  },
+  {
+    "termEn": "static analysis",
+    "definitionEn": "The process of evaluating a component or system without executing it, based on its form, structure, content, or documentation.",
+    "termRu": "статический анализ",
+    "definitionRu": "Процесс оценки компонента или системы без его выполнения на основе его формы, структуры, содержимого или документации."
+  },
+  {
+    "termEn": "system testing",
+    "definitionEn": "A test level that focuses on verifying that a system as a whole meets specified requirements.",
+    "termRu": "системное тестирование",
+    "definitionRu": "Уровень тестирования, который фокусируется на проверке соответствия системы в целом определенным требованиям"
+  },
+  {
+    "termEn": "security",
+    "definitionEn": "The degree to which a component or system protects information and data so that persons or other components or systems have the degree of access appropriate to their types and levels of authorization."
+  },
+  {
+    "termEn": "sequential development model",
+    "definitionEn": "A type of software development lifecycle model in which a complete system is developed in a linear way of several discrete and successive phases with no overlap between them."
+  },
+  {
+    "termEn": "service virtualization",
+    "definitionEn": "A technique to enable virtual delivery of services which are deployed, accessed and managed remotely."
+  },
+  {
+    "termEn": "simulator",
+    "definitionEn": "A device, computer program or system used during testing, which behaves or operates like a given system when provided with a set of controlled inputs."
+  },
+  {
+    "termEn": "software development lifecycle",
+    "definitionEn": "The activities performed at each stage in software development, and how they relate to one another logically and chronologically."
+  },
+  {
+    "termEn": "static testing",
+    "definitionEn": "Testing a work product without the work product code being executed."
+  },
+  {
+    "termEn": "test charter",
+    "definitionEn": "Documentation of the goal or objective for a test session.",
+    "termRu": "концепция тестирования",
+    "definitionRu": "Документирование цели или задачи тестового сеанса."
+  },
+  {
+    "termEn": "test control",
+    "definitionEn": "The activity that develops and applies corrective actions to get a test project on track when it deviates from what was planned.",
+    "termRu": "контроль тестирования",
+    "definitionRu": "Активность по разработке и применению корректирующих действий, чтобы привести тестовый проект в нужное русло, когда он отклоняется от запланированного"
+  },
+  {
+    "termEn": "test design",
+    "definitionEn": "The activity that derives and specifies test cases from test conditions.",
+    "termRu": "проектирование теста",
+    "definitionRu": "Активность по получению и определению тест-кейсов в соответствии с условиями тестирования."
+  },
+  {
+    "termEn": "test execution",
+    "definitionEn": "The activity that runs a test on a component or system producing actual results.",
+    "termRu": "выполнение теста",
+    "definitionRu": "Активность, запускающая тест компонента или системы, приводя к фактическим результатам."
+  },
+  {
+    "termEn": "technical review",
+    "definitionEn": "A formal review by technical experts that examine the quality of a work product and identify discrepancies from specifications and standards.",
+    "termRu": "технический анализ",
+    "definitionRu": "Тип формального рецензирования, выполняемый командой технически квалифицированных специалистов, который проверяет пригодность рабочего продукта для его предполагаемого использования и выявляет несоответствия спецификациям и стандартам."
+  },
+  {
+    "termEn": "test",
+    "definitionEn": "A set of one or more test cases.",
+    "termRu": "тест",
+    "definitionRu": "Набор из одного или нескольких тестовых сценариев."
+  },
+  {
+    "termEn": "test analysis",
+    "definitionEn": "The activity that identifies test conditions by analyzing the test basis.",
+    "termRu": "анализ тестирования",
+    "definitionRu": "Деятельность, которая направлена на определение тестовых условий путем анализа базиса тестирования"
+  },
+  {
+    "termEn": "test estimation",
+    "definitionEn": "An approximation related to various aspects of testing.",
+    "termRu": "оценка затрат на тестирование",
+    "definitionRu": "Аппроксимация объема трудозатрат, связанная с различными аспектами тестирования."
+  },
+  {
+    "termEn": "test approach",
+    "definitionEn": "The implementation of the test strategy for a specific project.",
+    "termRu": "подход к тестированию",
+    "definitionRu": "Реализация стратегии тестирования для конкретного проекта."
+  },
+  {
+    "termEn": "test automation",
+    "definitionEn": "The use of software to perform or support test activities.",
+    "termRu": "автоматизация тестирования",
+    "definitionRu": "Использование программного обеспечения для осуществления или помощи в проведении определенных активностей тестирования."
+  },
+  {
+    "termEn": "test basis",
+    "definitionEn": "The body of knowledge used as the basis for test analysis and design.",
+    "termRu": "базис тестирования",
+    "definitionRu": "Совокупность знаний, используемых как базис для тест-аналитики и проектирования тестов."
+  },
+  {
+    "termEn": "test case",
+    "definitionEn": "A set of preconditions, inputs, actions (where applicable), expected results and postconditions, developed based on test conditions.",
+    "termRu": "тестовый сценарий",
+    "definitionRu": "Набор предусловий, входных данных, действий (где применимо), ожидаемых результатов и постусловий, разработанных на основе тестовых условий"
+  },
+  {
+    "termEn": "test condition",
+    "definitionEn": "A testable aspect of a component or system identified as a basis for testing.",
+    "termRu": "тестовое условие",
+    "definitionRu": "Тестируемый аспект компонента или системы, определенный в качестве базиса тестирования."
+  },
+  {
+    "termEn": "test cycle",
+    "definitionEn": "An instance of the test process against a single identifiable version of the test object.",
+    "termRu": "цикл тестирования",
+    "definitionRu": "Экземпляр процесса тестирования конкретной идентифицируемой версии тестового объекта."
+  },
+  {
+    "termEn": "test data",
+    "definitionEn": "Data needed for test execution.",
+    "termRu": "тестовые данные",
+    "definitionRu": "Данные, необходимые для выполнения теста."
+  },
+  {
+    "termEn": "test environment",
+    "definitionEn": "An environment containing hardware, instrumentation, simulators, software tools, and other support elements needed to conduct a test.",
+    "termRu": "тестовое окружение",
+    "definitionRu": "Окружение, включающее в себя аппаратное обеспечение, измерительную аппаратуру, имитаторы, программный инструментарий и прочие инструменты, необходимые для проведения теста."
+  },
+  {
+    "termEn": "test completion report",
+    "definitionEn": "A type of test report produced at completion milestones that provides an evaluation of the corresponding test items against exit criteria.",
+    "termRu": "итоговый отчет о тестировании",
+    "definitionRu": "Вид отчета о тестировании, составленный на этапах завершения, который оценивает достижение критериев выхода для элементов тестирования."
+  },
+  {
+    "termEn": "system under test",
+    "definitionEn": "A type of test object that is a system."
+  },
+  {
+    "termEn": "test completion",
+    "definitionEn": "The activity that makes testware available for later use, leaves test environments in a satisfactory condition and communicates the results of testing to relevant stakeholders."
+  },
+  {
+    "termEn": "test data preparation",
+    "definitionEn": "The activity to select data from existing databases or create, generate, manipulate and edit data for testing."
+  },
+  {
+    "termEn": "test implementation",
+    "definitionEn": "The activity that prepares the testware needed for test execution based on test analysis and design.",
+    "termRu": "реализация теста",
+    "definitionRu": "Деятельность по подготовке тестового обеспечения необходимая для выполнения тестов, на основе анализа и проектирования тестов"
+  },
+  {
+    "termEn": "test monitoring",
+    "definitionEn": "The activity that checks the status of testing activities, identifies any variances from planned or expected, and reports status to stakeholders.",
+    "termRu": "мониторинг тестирования",
+    "definitionRu": "Деятельность, которая проверяет состояние тестовых мероприятий, выявляет любые отклонения от запланированных или ожидаемых и сообщает о состоянии заинтересованным сторонам."
+  },
+  {
+    "termEn": "test planning",
+    "definitionEn": "The activity of establishing or updating a test plan.",
+    "termRu": "планирование тестирования",
+    "definitionRu": "Работа по составлению и поддержанию актуальности плана тестирования."
+  },
+  {
+    "termEn": "test harness",
+    "definitionEn": "A collection of stubs and drivers needed to execute a test suite",
+    "termRu": "тестовая обвязка",
+    "definitionRu": "Набор заглушек и драйверов, необходимых для выполнения набора тестов."
+  },
+  {
+    "termEn": "test execution schedule",
+    "definitionEn": "A schedule for the execution of test suites within a test cycle.",
+    "termRu": "расписание выполнения тестов",
+    "definitionRu": "Расписание выполнения тестовых наборов в рамках цикла тестирования."
+  },
+  {
+    "termEn": "test infrastructure",
+    "definitionEn": "The organizational artifacts needed to perform testing, consisting of test environments, test tools, office environment and procedures.",
+    "termRu": "инфраструктура тестирования",
+    "definitionRu": "Артефакты, необходимые для проведения тестирования, такие как тестовое окружение, инструменты тестирования, офисное окружение и процедуры."
+  },
+  {
+    "termEn": "test item",
+    "definitionEn": "A part of a test object used in the test process.",
+    "termRu": "элемент тестирования",
+    "definitionRu": "Часть тестового объекта, которая используется в процессе тестирования."
+  },
+  {
+    "termEn": "test level",
+    "definitionEn": "A specific instantiation of a test process.",
+    "termRu": "уровень тестирования",
+    "definitionRu": "Конкретная реализация процесса тестирования."
+  },
+  {
+    "termEn": "test management",
+    "definitionEn": "The planning, scheduling, estimating, monitoring, reporting, control and completion of test activities.",
+    "termRu": "управление тестированием",
+    "definitionRu": "Планирование, составление графика, оценка, мониторинг, отчетность, контроль и завершение тестовых мероприятий."
+  },
+  {
+    "termEn": "test policy",
+    "definitionEn": "A high-level document describing the principles, approach and major objectives of the organization regarding testing.",
+    "termRu": "политика тестирования",
+    "definitionRu": "Документ высокого уровня, описывающий принципы, подход и основные цели организации в отношении тестирования."
+  },
+  {
+    "termEn": "test management tool",
+    "definitionEn": "A tool that supports test management.",
+    "termRu": "инструмент управления тестированием",
+    "definitionRu": "Инструмент, поддерживающий управление тестированием."
+  },
+  {
+    "termEn": "test manager",
+    "definitionEn": "The person responsible for project management of testing activities, resources, and evaluation of a test object.",
+    "termRu": "руководитель тестирования",
+    "definitionRu": "Специалист, ответственный за управление ресурсами и работами по тестированию, а также за определение качества тестируемого объекта."
+  },
+  {
+    "termEn": "test object",
+    "definitionEn": "The work product to be tested.",
+    "termRu": "объект тестирования",
+    "definitionRu": "Рабочий продукт, подлежащий тестированию."
+  },
+  {
+    "termEn": "test objective",
+    "definitionEn": "The reason or purpose of testing.",
+    "termRu": "причина тестирования",
+    "definitionRu": "Обоснование или цель проведения тестирования."
+  },
+  {
+    "termEn": "test oracle",
+    "definitionEn": "A source to determine an expected result to compare with the actual result of the system under test.",
+    "termRu": "тестовый предсказатель",
+    "definitionRu": "Источник для определения ожидаемого результата для сравнения с фактическим результатом тестируемой системы."
+  },
+  {
+    "termEn": "test plan",
+    "definitionEn": "Documentation describing the test objectives to be achieved and the means and the schedule for achieving them, organized to coordinate testing activities.",
+    "termRu": "план тестирования",
+    "definitionRu": "Документация, описывающая цели тестирования, которые должны быть достигнуты, средства и график их достижения, организованная для координации тестовой деятельности."
+  },
+  {
+    "termEn": "test process",
+    "definitionEn": "The set of interrelated activities comprising of test planning, test monitoring and control, test analysis, test design, test implementation, test execution, and test completion.",
+    "termRu": "процесс тестирования",
+    "definitionRu": "Совокупность взаимосвязанных действий, включающих планирование тестирования, мониторинг и контроль тестирования, анализ, проектирование, реализацию, выполнение и завершение тестов."
+  },
+  {
+    "termEn": "test leader",
+    "definitionEn": "On large projects, the person who reports to the test manager and is responsible for project management of a particular test level or a particular set of testing activities.",
+    "termRu": "ведущий специалист по тестированию",
+    "definitionRu": "В крупных проектах это лицо, которое подотчетно руководителю тестирования и отвечает за управление проектами на конкретном уровне тестирования или за конкретный набор активностей тестирования"
+  },
+  {
+    "termEn": "test procedure",
+    "definitionEn": "A sequence of test cases in execution order, and any associated actions that may be required to set up the initial preconditions and any wrap up activities post execution.",
+    "termRu": "процедура тестирования",
+    "definitionRu": "Последовательность тестовых случаев в порядке их выполнения или другие активности , которые могут потребоваться для настройки предварительных условий и завершающих активностей после выполнения тестирования."
+  },
+  {
+    "termEn": "test execution tool",
+    "definitionEn": "A test tool that executes tests against a designated test item and evaluates the outcomes against expected results and postconditions.",
+    "termRu": "инструмент выполнения тестов",
+    "definitionRu": "Инструмент тестирования, который выполняет тесты для конкретного тестируемого элемента и оценивает результаты по ожидаемым результатам и постусловиям."
+  },
+  {
+    "termEn": "test strategy",
+    "definitionEn": "Documentation aligned with the test policy that describes the generic requirements for testing and details how to perform testing within an organization.",
+    "termRu": "стратегия тестирования",
+    "definitionRu": "Документация, которая выражает общие требования к тестированию одного или нескольких проектов в рамках одной организации, содержит подробные сведения о том, как должно выполняться тестирование в соответствии с политикой тестирования."
+  },
+  {
+    "termEn": "usability testing",
+    "definitionEn": "Testing to evaluate the degree to which the system can be used by specified users with effectiveness, efficiency and satisfaction in a specified context of use.",
+    "termRu": "тестирование практичности",
+    "definitionRu": "Тестирование для оценки степени того, насколько результативно и эффективно может использоваться система определенными пользователями в заданном контексте использования."
+  },
+  {
+    "termEn": "test result",
+    "definitionEn": "The consequence/outcome of the execution of a test.",
+    "termRu": "результат теста",
+    "definitionRu": "Следствие/итог выполнения теста."
+  },
+  {
+    "termEn": "test technique",
+    "definitionEn": "A procedure used to define test conditions, design test cases, and specify test data.",
+    "termRu": "метод тестирования",
+    "definitionRu": "Процедура, используемая для определения условий тестирования, проектирования сценариев тестирования и формирования тестовых данных."
+  },
+  {
+    "termEn": "test reporting",
+    "definitionEn": "Collecting and analyzing data from testing activities and subsequently consolidating the data in a report to inform stakeholders.",
+    "termRu": "отчетность тестирования",
+    "definitionRu": "Сбор и анализ данных, предоставляемых тестовыми активностями, с последующим объединением данных в отчет с целью информирования заинтересованных лиц."
+  },
+  {
+    "termEn": "test schedule",
+    "definitionEn": "A list of activities, tasks or events of the test process, identifying their intended start and finish dates and/or times, and interdependencies.",
+    "termRu": "график тестирования",
+    "definitionRu": "Список задач, действий или событий в процессе тестирования, определяющий даты и/или время их начала и завершения, и их взаимозависимости."
+  },
+  {
+    "termEn": "test session",
+    "definitionEn": "An uninterrupted period of time spent in executing tests.",
+    "termRu": "сессия тестирования",
+    "definitionRu": "Непрерывный промежуток времени, во время которого выполняются тесты."
+  },
+  {
+    "termEn": "test progress report",
+    "definitionEn": "A type of test report produced at regular intervals about the progress of test activities against a baseline, risks, and alternatives requiring a decision.",
+    "termRu": "отчет о ходе тестирования",
+    "definitionRu": "Вид отчета о тестировании, составляемый через регулярные промежутки времени, содержащий данные о ходе тестирования в сравнении с исходным планом, о рисках и альтернативах, требующих принятия решения"
+  },
+  {
+    "termEn": "test script",
+    "definitionEn": "A sequence of instructions for the execution of a test.",
+    "termRu": "автоматизированный сценарий тестирования",
+    "definitionRu": "Последовательность инструкций для выполнения автоматизированного теста."
+  },
+  {
+    "termEn": "test suite",
+    "definitionEn": "A set of test scripts or test procedures to be executed in a specific test run.",
+    "termRu": "набор тестов",
+    "definitionRu": "Набор тестовых сценариев или тестовых процедур, выполняемых в определенном тестовом прогоне."
+  },
+  {
+    "termEn": "test type",
+    "definitionEn": "A group of test activities based on specific test objectives aimed at specific characteristics of a component or system.",
+    "termRu": "тип тестирования",
+    "definitionRu": "Группа активностей тестирования, направленных на тестирование характеристик компонента или системы с определенной целью."
+  },
+  {
+    "termEn": "testability",
+    "definitionEn": "The degree to which test conditions can be established for a component or system, and tests can be performed to determine whether those test conditions have been met.",
+    "termRu": "тестируемость",
+    "definitionRu": "Степень эффективности и действенности, с которой тесты могут быть разработаны и выполнены для компонента или системы."
+  },
+  {
+    "termEn": "tester",
+    "definitionEn": "A person who performs testing.",
+    "termRu": "тестировщик",
+    "definitionRu": "Специалист, проводящий тестирование"
+  },
+  {
+    "termEn": "testing",
+    "definitionEn": "The process consisting of all lifecycle activities, both static and dynamic, concerned with planning, preparation and evaluation of a component or system and related work products to determine that they satisfy specified requirements, to demonstrate that they are fit for purpose and to detect defects.",
+    "termRu": "тестирование",
+    "definitionRu": "Процесс, содержащий все активности жизненного цикла, как динамические, так и статические, касающиеся планирования, подготовки и оценки компонента или системы и связанных с этим результатов работ с целью определить, что они соответствуют описанным требованиям, показать, что они пригодны для заявленных целей и для определения дефектов."
+  },
+  {
+    "termEn": "testware",
+    "definitionEn": "Work products produced during the test process for use in planning, designing, executing, evaluating and reporting on testing.",
+    "termRu": "тестовое обеспечение",
+    "definitionRu": "Рабочие продукты, созданные в процессе тестирования для использования в планировании, проектировании, выполнении, оценке и отчетности по тестированию."
+  },
+  {
+    "termEn": "traceability",
+    "definitionEn": "The degree to which a relationship can be established between two or more work products.",
+    "termRu": "трассируемость",
+    "definitionRu": "Степень, с которой может быть установлена связь между двумя или более рабочими продуктами."
+  },
+  {
+    "termEn": "usability",
+    "definitionEn": "The degree to which a component or system can be used by specified users to achieve specified goals in a specified context of use.",
+    "termRu": "практичность",
+    "definitionRu": "Степень, с которой компонент или система могут использоваться указанными пользователями для достижения конкретных целей в контексте использования."
+  },
+  {
+    "termEn": "test report",
+    "definitionEn": "Documentation summarizing test activities and results.",
+    "termRu": "отчет о тестировании",
+    "definitionRu": "Документация, обобщающая деятельность и результаты тестирования."
+  },
+  {
+    "termEn": "test process improvement",
+    "definitionEn": "A program of activities undertaken to improve the performance and maturity of the organization's test processes."
+  },
+  {
+    "termEn": "test-first approach",
+    "definitionEn": "An approach to software development in which the test cases are designed and implemented before the associated component or system is developed."
+  },
+  {
+    "termEn": "use case testing",
+    "definitionEn": "A black-box test technique in which test cases are designed to exercise use case behaviors.",
+    "termRu": "тестирование по сценариям использования",
+    "definitionRu": "Метод тестирования черного ящика, в котором сценарии тестирования разрабатываются на основе выполнения сценариев использования."
+  },
+  {
+    "termEn": "user acceptance testing",
+    "definitionEn": "A type of acceptance testing performed to determine if intended users accept the system.",
+    "termRu": "пользовательское приёмочное тестирование",
+    "definitionRu": "Тип приемочного тестирования, выполняемого для определения того, принимают ли предполагаемые пользователи систему."
+  },
+  {
+    "termEn": "user story",
+    "definitionEn": "A user or business requirement consisting of one sentence expressed in the everyday or business language which is capturing the functionality a user needs, the reason behind it, any non-functional criteria, and also including acceptance criteria.",
+    "termRu": "пользовательская история",
+    "definitionRu": "Пользовательское или бизнес-требование, состоящее из одного предложения, выраженного в повседневной или деловой речи, которое отражает функциональность, необходимую пользователю, цель разработки, любые нефункциональные критерии, а также включает критерии приемки."
+  },
+  {
+    "termEn": "V-model",
+    "definitionEn": "A sequential software development lifecycle model describing a one-for-one relationship between major phases of software development from business requirements specification to delivery, and corresponding test levels from acceptance testing to component testing.",
+    "termRu": "V-модель",
+    "definitionRu": "Последовательная модель жизненного цикла разработки, описывающая взаимно-однозначное соответствие между основными этапами разработки программного обеспечения от спецификации бизнес-требований до поставки и соответствующими уровнями тестирования от приемочного тестирования до тестирования компонентов."
+  },
+  {
+    "termEn": "validation",
+    "definitionEn": "Confirmation by examination and through provision of objective evidence that the requirements for a specific intended use or application have been fulfilled.",
+    "termRu": "валидация",
+    "definitionRu": "Доказанное объективными результатами исследования подтверждение того, что требования для ожидаемого конкретного использования приложения были выполнены."
+  },
+  {
+    "termEn": "walkthrough",
+    "definitionEn": "A type of review in which an author leads members of the review through a work product and the members ask questions and make comments about possible issues.",
+    "termRu": "разбор",
+    "definitionRu": "Тип рецензирования, при котором автор демонстрирует рабочий продукт рецензентам, которые задают вопросы и комментируют возможные проблемы."
+  },
+  {
+    "termEn": "verification",
+    "definitionEn": "Confirmation by examination and through provision of objective evidence that specified requirements have been fulfilled.",
+    "termRu": "верификация",
+    "definitionRu": "Доказанное объективными результатами исследования подтверждение того, что определенные требования были выполнены."
+  },
+  {
+    "termEn": "white-box test technique",
+    "definitionEn": "A test technique only based on the internal structure of a component or system.",
+    "termRu": "разработка тестов методом белого ящика",
+    "definitionRu": "Метод тестирования, основанный только на внутренней структуре компонента или системы."
+  },
+  {
+    "termEn": "white-box testing",
+    "definitionEn": "Testing based on an analysis of the internal structure of the component or system.",
+    "termRu": "тестирование методом белого ящика",
+    "definitionRu": "Тестирование, основанное на анализе внутренней структуры компонента или системы."
+  },
+  {
+    "termEn": "Wideband Delphi",
+    "definitionEn": "An expert-based test estimation technique that aims at making an accurate estimation using the collective wisdom of the team members.",
+    "termRu": "широкополосный оракул",
+    "definitionRu": "Методика оценки затрат на тестирование на базе экспертной оценки, ставящая целью точную оценку с помощью коллективного опыта членов команды."
+  },
+  {
+    "termEn": "user interface",
+    "definitionEn": "All components of a system that provide information and controls for the user to accomplish specific tasks with the system."
+  }
+]
