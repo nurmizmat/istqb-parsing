@@ -1,6 +1,6 @@
 # Projects
 
-Useless projects. Just for fun)))
+Useless projects. Just for fun))) Using the Cypress test framework for other purposes))
 
 ## istqb-glossary.spec.js
 
