@@ -1,10 +1,8 @@
-/// <reference types="cypress" />
-
 const istqbSyllabus = 'Foundation v3.1'; // type of syllabus
 const langTranslate = 'Russian'; // translation language
 const jsonFile = `./cypress/fixtures/ISTQB ${istqbSyllabus}.json`;
 
-describe('Create ISQTB glossary course in SuperMemo', () => {
+describe('Create ISTQB glossary course in SuperMemo', () => {
   const selectOptions = () => {
     cy.contains('Advanced Options').click();
     cy.get('.syllabi').contains('Uncheck All').click();
