@@ -1,4 +1,4 @@
-# Projects
+# istqb-parsing
 
 Just for fun! Parses the glossary from the [ISTQB](https://www.istqb.org/) into a JSON file and then creates a course to prepare for the exam on the [SuperMemo](https://www.supermemo.com/).
 
